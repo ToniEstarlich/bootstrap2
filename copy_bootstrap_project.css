@@ -1,0 +1,43 @@
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+
+.Movie {
+    width: 300px;
+    height: 300px;
+     }
+
+.col {
+  display: block;
+	border-right: 2px solid lightgray;
+	border-bottom: 2px solid lightgray;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	margin: 10px 0;
+	height: auto;
+    
+}
+
+.card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
+
+.jumbotron{
+  width: 1300px;
+  height: 200px;
+  text-align: center;
+  justify-content: center;
+}  
+
+span {
+    text-align: center;
+    justify-content: center;
+  }
